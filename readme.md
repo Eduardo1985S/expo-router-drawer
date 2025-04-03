@@ -48,7 +48,7 @@ Inside the `app` folder, create a subfolder called `(drawer)`, which will contai
 
 ### Step 3: Create Drawer Layout
 
-Inside the `(drawer)` folder, create a file called `_layout.js`:
+create a file called `_layout.js`:
 
 ```javascript
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
@@ -80,7 +80,7 @@ export default function DrawerLayout() {
 
 ### Step 4: Create Screens
 
-File `(drawer)/home/index.js`:
+File `index.js`:
 
 ```javascript
 import { View, Text, StyleSheet } from 'react-native';
